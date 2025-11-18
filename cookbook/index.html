@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Christensen Family Cookbook - Christensen Family Cookbook</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="./resources/simple.min.css">
+    <style>
+        body {
+            max-width: 90%;
+            margin: auto;
+        }
+        .recipe-times-table {
+            width: 100%;
+            margin: 1.5em 0;
+            border-top: 1px solid #ddd;
+            border-bottom: 1px solid #ddd;
+            background-color: transparent;
+            border-collapse: collapse;
+        }
+
+        .recipe-times-table td {
+            text-align: center;
+            padding: 0.75em 1em;
+            vertical-align: top;
+            width: 1%; 
+        }
+
+        .recipe-times-table .time-label {
+            font-weight: bold;
+            display: block;
+            font-size: 0.85em;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 0.25em;
+        }
+        .h3 {
+            color: var(--accent);
+        }
+        .info-table {
+            font-size: 1em;
+        }
+
+        /* Full-width header */
+        header {
+            width: 100vw;
+            margin-left: calc(50% - 50vw);
+            background-color: var(--accent-bg); /* Using a simplecss variable for consistency */
+        }
+        .header-content {
+            max-width: 90%; /* Inherit body's max-width for content */
+            margin: auto; /* Center content within the full-width header */
+        }
+
+        header nav a, header nav a:visited {
+            color: var(--accent);
+        }
+
+        /* Responsive design for mobile */
+        @media (orientation: portrait) {
+            body {
+                max-width: 100%;
+            }
+        }
+
+        /* Recipe navigation */
+        .recipe-nav {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 2em;
+        }
+        .recipe-nav a, .recipe-nav a:visited {
+            color: var(--accent);
+            text-decoration: none;
+            padding: 0.5em 1em;
+            border: 1px solid var(--border);
+            border-radius: var(--standard-border-radius);
+        }
+        .recipe-nav a:hover {
+            background-color: var(--accent-bg);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <nav>
+                <a href="./index.html">Home</a>
+                <a href="./preface.html">Conversions & Substitutions</a>
+            </nav>
+            <h1>Christensen Family Cookbook</h1>
+            
+        </div>
+    </header>
+
+    <main>
+        
+    <h2>Introduction</h2>
+    <p>
+        This Christensen Family Cookbook is an updated collection of the Christensen family’s favorite recipes. The original version of this book was compiled by Janet Christensen. Some recipes have been added, updated, and removed between the two versions. This current edition includes recipes from the original cookbook, Brian, Erin, Sue, and the kids. Many of the recipes I remember eating frequently in my childhood, and I'm sure the rest of the kids do as well.
+    </p>
+    <p>
+        Brooklyn and I hope this cookbook will be a valuable resource for you and your families.
+    </p>
+    <p>
+        Noah
+    </p>
+
+    <hr>
+    
+    <h2>Table of Contents</h2>
+    
+        <h3>Beverages</h3>
+        <ul>
+            
+                <li><a href="./recipes/brandy_alexander.html">Brandy Alexander</a></li>
+            
+                <li><a href="./recipes/caribbean_splash.html">Caribbean Splash</a></li>
+            
+                <li><a href="./recipes/daiquiri.html">Daiquiri</a></li>
+            
+                <li><a href="./recipes/frosty_cider.html">Frosty Cider</a></li>
+            
+                <li><a href="./recipes/margarita.html">Margarita</a></li>
+            
+                <li><a href="./recipes/orange_julius.html">Orange Julius</a></li>
+            
+                <li><a href="./recipes/pina_colada.html">Pina Colada</a></li>
+            
+                <li><a href="./recipes/russian_punch.html">Russian Punch</a></li>
+            
+                <li><a href="./recipes/spicy_pirate.html">Spicy Pirate</a></li>
+            
+                <li><a href="./recipes/strawberry_daiquiri.html">Strawberry Daiquiri</a></li>
+            
+                <li><a href="./recipes/sunburn.html">Sunburn</a></li>
+            
+                <li><a href="./recipes/tom_collins.html">Tom Collins</a></li>
+            
+        </ul>
+    
+        <h3>Bread</h3>
+        <ul>
+            
+                <li><a href="./recipes/50_whole_wheat_nut_muffins.html">50% Whole Wheat Nut Muffins</a></li>
+            
+                <li><a href="./recipes/artisan_pioneer_bread.html">Artisan (Pioneer) Bread</a></li>
+            
+                <li><a href="./recipes/baking_powder_biscuits.html">Baking Powder Biscuits</a></li>
+            
+                <li><a href="./recipes/best_white_dinner_rolls.html">Best White Dinner Rolls</a></li>
+            
+                <li><a href="./recipes/homemade_cinnamon_rolls.html">Homemade Cinnamon Rolls</a></li>
+            
+                <li><a href="./recipes/lionhouse_dinner_rolls.html">Lionhouse Dinner Rolls</a></li>
+            
+                <li><a href="./recipes/muffins.html">Muffins</a></li>
+            
+                <li><a href="./recipes/the_best_pizza_dough.html">The Best Pizza Dough</a></li>
+            
+                <li><a href="./recipes/white_bread_a_favorite_recipe.html">White Bread (A favorite recipe)</a></li>
+            
+        </ul>
+    
+        <h3>Breakfast</h3>
+        <ul>
+            
+                <li><a href="./recipes/basic_buttermilk_waffles.html">Basic Buttermilk Waffles</a></li>
+            
+                <li><a href="./recipes/basic_crepe_recipe_with_cheese_sauce.html">Basic Crepe Recipe with Cheese Sauce</a></li>
+            
+                <li><a href="./recipes/breakfast_casserole.html">Breakfast Casserole</a></li>
+            
+                <li><a href="./recipes/breakfast_strata_with_potatoes_rosemary_and_fontina.html">Breakfast Strata with Potatoes, Rosemary, and Fontina</a></li>
+            
+                <li><a href="./recipes/breakfast_strata_with_sausage_mushrooms_and_monterey_jack.html">Breakfast Strata with Sausage, Mushrooms, and Monterey Jack</a></li>
+            
+                <li><a href="./recipes/creamed_eggs.html">Creamed Eggs</a></li>
+            
+                <li><a href="./recipes/creme_brulee_french_toast.html">Creme Brulee French Toast</a></li>
+            
+                <li><a href="./recipes/hootenanny_pancakes.html">Hootenanny Pancakes</a></li>
+            
+                <li><a href="./recipes/norwegian_pancakes_ellen_chadwick.html">Norwegian Pancakes (Ellen Chadwick)</a></li>
+            
+                <li><a href="./recipes/potato_pancakes.html">Potato Pancakes</a></li>
+            
+                <li><a href="./recipes/sausage_gravy_for_biscuits.html">Sausage Gravy for Biscuits</a></li>
+            
+                <li><a href="./recipes/the_best_ever_pancakes.html">The Best Ever Pancakes</a></li>
+            
+                <li><a href="./recipes/waffles.html">Waffles</a></li>
+            
+        </ul>
+    
+        <h3>Dessert</h3>
+        <ul>
+            
+                <li><a href="./recipes/blondies.html">Blondies</a></li>
+            
+                <li><a href="./recipes/chewy_oatmeal_chocolate_chip_coconut_cookies.html">Chewy Oatmeal Chocolate Chip Coconut Cookies</a></li>
+            
+                <li><a href="./recipes/chocolate_buttermilk_brownies_texas_style.html">Chocolate Buttermilk Brownies (Texas style)</a></li>
+            
+                <li><a href="./recipes/chocolate_cream_cake.html">Chocolate Cream Cake</a></li>
+            
+                <li><a href="./recipes/classic_peach_cobbler.html">Classic Peach Cobbler</a></li>
+            
+                <li><a href="./recipes/crisco_chocolate_cake.html">Crisco Chocolate Cake</a></li>
+            
+                <li><a href="./recipes/hidden_veggie_carrot_orange_popsicles.html">Hidden-Veggie Carrot & Orange Popsicles</a></li>
+            
+                <li><a href="./recipes/vanilla_bean_sugar_cookies_with_royal_icing.html">Vanilla Bean Sugar Cookies with Royal Icing</a></li>
+            
+        </ul>
+    
+        <h3>Entrees</h3>
+        <ul>
+            
+                <li><a href="./recipes/beef_stroganoff.html">Beef Stroganoff</a></li>
+            
+                <li><a href="./recipes/best_chicken_parmesan.html">Best Chicken Parmesan</a></li>
+            
+                <li><a href="./recipes/cast_iron_shepherds_pie.html">Cast Iron Shepherd's Pie</a></li>
+            
+                <li><a href="./recipes/chile_verde.html">Chile Verde</a></li>
+            
+                <li><a href="./recipes/chow_mein.html">Chow Mein</a></li>
+            
+                <li><a href="./recipes/double_crust_chicken_pot_pie.html">Double-Crust Chicken Pot Pie</a></li>
+            
+                <li><a href="./recipes/penne_rustica_romanos_macaroni_grill.html">Penne Rustica - Romano's Macaroni Grill</a></li>
+            
+                <li><a href="./recipes/rempel_family_meatloaf.html">Rempel Family Meatloaf</a></li>
+            
+                <li><a href="./recipes/spaghetti_carbonara.html">Spaghetti Carbonara</a></li>
+            
+                <li><a href="./recipes/steak_fajitas.html">Steak Fajitas</a></li>
+            
+                <li><a href="./recipes/sushi.html">Sushi</a></li>
+            
+        </ul>
+    
+        <h3>Salads and Sides</h3>
+        <ul>
+            
+                <li><a href="./recipes/atk_classic_egg_salad.html">ATK Classic Egg Salad</a></li>
+            
+                <li><a href="./recipes/chicken_pasta_salad.html">Chicken Pasta Salad</a></li>
+            
+                <li><a href="./recipes/chicken_salad_with_fresh_herbs.html">Chicken Salad with Fresh Herbs</a></li>
+            
+                <li><a href="./recipes/chunky_guacamole.html">Chunky Guacamole</a></li>
+            
+                <li><a href="./recipes/garden_potato_salad.html">Garden Potato Salad</a></li>
+            
+                <li><a href="./recipes/hawaiian_macaroni_salad.html">Hawaiian Macaroni Salad</a></li>
+            
+                <li><a href="./recipes/homemade_mac_cheese.html">Homemade Mac & Cheese</a></li>
+            
+                <li><a href="./recipes/lionhouse_coleslaw.html">Lionhouse Coleslaw</a></li>
+            
+                <li><a href="./recipes/pot_stickers_chinese_dumplings.html">Pot Stickers (Chinese Dumplings)</a></li>
+            
+                <li><a href="./recipes/seven_layer_dip.html">Seven-Layer Dip</a></li>
+            
+                <li><a href="./recipes/southern_style_sweet_potato_casserole.html">Southern style sweet potato casserole</a></li>
+            
+                <li><a href="./recipes/spring_rolls.html">Spring Rolls</a></li>
+            
+        </ul>
+    
+        <h3>Sauces</h3>
+        <ul>
+            
+                <li><a href="./recipes/homemade_canned_spaghetti_sauce.html">Homemade Canned Spaghetti Sauce</a></li>
+            
+                <li><a href="./recipes/homemade_enchilada_sauce.html">Homemade Enchilada Sauce</a></li>
+            
+        </ul>
+    
+        <h3>Soup</h3>
+        <ul>
+            
+                <li><a href="./recipes/broccoli_cheese_soup.html">Broccoli Cheese Soup</a></li>
+            
+                <li><a href="./recipes/carrabbas_spicy_sicilian_chicken_soup.html">Carrabba's Spicy Sicilian Chicken Soup</a></li>
+            
+                <li><a href="./recipes/creamy_tortellini_soup.html">Creamy Tortellini Soup</a></li>
+            
+                <li><a href="./recipes/creamy_white_chicken_chili.html">Creamy White Chicken Chili</a></li>
+            
+                <li><a href="./recipes/easy_tortellini_soup.html">Easy Tortellini Soup</a></li>
+            
+                <li><a href="./recipes/egg_drop_soup.html">Egg Drop Soup</a></li>
+            
+                <li><a href="./recipes/mimis_cafe_corn_chowder.html">Mimi's Cafe Corn Chowder</a></li>
+            
+                <li><a href="./recipes/texas_brisket_chili.html">Texas Brisket Chili</a></li>
+            
+        </ul>
+    
+        <h3>Other</h3>
+        <ul>
+            
+                <li><a href="./recipes/kool_aid_playdoh.html">Kool-Aid Playdoh</a></li>
+            
+        </ul>
+    
+
+    </main>
+
+    <footer>
+        <p>
+            Cookbook generated on Nov 18, 2025 at 1:03 PM
+            
+             by the Christensen Family Cookbook generator.
+        </p>
+    </footer>
+</body>
+</html>
